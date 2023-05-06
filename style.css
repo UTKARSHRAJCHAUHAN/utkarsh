@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 50px;
+    background-color:whitesmoke;
+}
+header h2{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+header nav{
+    display: inline-flex;
+    align-items: center;
+}
+header nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(11, 151, 144);
+}
+header nav a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+    cursor: pointer;
+}
+header nav button{
+    background-color: rgb(11, 151, 144);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+header nav button:hover{
+    transform: scale(1.2);
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+
+.template{
+    display: inline-flex;
+    justify-content: space-around;
+    border: 1px  solid black;
+    width: 100vw;
+    height: 40vh;
+    background:linear-gradient(to left, rgb(8, 61, 61) 60%,rgb(16, 151, 106))
+}
+.template-inside1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    font-weight: 00;
+    margin-left: 150px;
+}
+.template-inside1 button{
+    align-items:center;
+    position: relative;
+    top: 100px;
+    right: 425px;
+    background-color: rgb(11, 151, 144);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px;
+    margin: 5px;
+    color: white;
+}
+.template-inside1 button:hover{
+    transform: scale(1.2);
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+
+.template-inside2{
+    width: 250px;
+    height: 40vh;
+    margin-right: 150px;
+    
+}
+
+
+.main{
+    width: 100vw;
+    height: 75vh;
+    display: inline-flex;
+    padding-top:80px ;
+    padding-bottom:80px ;
+    justify-content: space-evenly;
+    background: linear-gradient(to left, whitesmoke 60%, rgb(161, 159, 159));
+}
+.logos{
+    margin-left:200px ;
+}
+.logos h2{
+    font-family: 'Poppins', sans-serif;
+    margin: 40px;
+    font-size: 19px;
+    font-weight:bolder;
+}
+.main-inside2{
+    margin-left: 60px;
+}
+.main-inside2 li{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+.tick{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+#tick-color{
+    background: green;
+    border-radius: 50%;
+}
+.our-programs{
+    margin:10px 0px 10px 0px;
+    width:100vw;
+    height: 95vh;
+    background-image: linear-gradient(to left ,rgb(128, 226, 128) 55%,rgb(227, 245, 128));
+}
+.our-programs-heading{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top:50px ;
+}
+.our-programs-heading h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.our-programs-heading p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.our-programs-table{
+    width: 100vw;
+    height: 70vh;
+    margin-top: 30px;
+    display: flex;
+}
+.table1{
+    padding-top: 10px;
+    padding-left: 200px;
+    height: 50vh;
+    width: 40vw;
+}
+.table1 h3{
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.lesson1{
+    display: inline;
+}
+.lesson2{
+    display: inline;
+}
+.lesson3{
+    display: inline;
+}
+.lesson4{
+    display: inline;
+}
+.lesson5{
+    display: inline;
+}
+.lesson6{
+    display: inline;
+}
+.lesson7{
+    display: inline;
+}
+.lesson8{
+    display: inline;
+}
+#L-1{
+
+
+    padding: 7px;
+    background-color: skyblue;
+}
+#L-2{
+    padding: 7px;
+    background-color: skyblue;
+}
+#L-3{
+    padding: 7px;
+    background-color: skyblue;
+}
+#L-4{
+    padding: 7px;
+    background-color: skyblue;
+}
+#L-5{
+    padding: 7px;
+    background-color: skyblue;
+}
+#L-6{
+    padding: 7px;
+    background-color: skyblue;
+}
+#L-7{
+    padding: 7px;
+    background-color: skyblue;
+}
+#L-8{
+    padding: 7px;
+    background-color: skyblue;
+}
+#l-1{
+
+    padding: 7px 500px 7px 12px;
+    background-color: white;
+
+}
+#l-2{
+    padding: 7px 509px 7px 12px;
+    background-color: white;
+
+}
+#l-3{
+
+
+    padding: 7px 514px 7px 12px;
+    background-color: white;
+
+}
+#l-4{
+
+    padding: 7px 510px 7px 12px;
+    background-color: white;
+
+}
+#l-5{
+    padding: 7px 505px 7px 12px;
+
+    background-color: white;
+
+}
+#l-6{
+    padding: 7px 355px 7px 12px;
+    background-color: white;
+
+
+}
+#l-7{
+    padding: 7px 336px 7px 12px;
+    background-color: white;
+
+}
+#l-8{
+    padding: 7px 347px 7px 12px;
+    background-color: white;
+
+}
+.table1 li{
+    display: inline-flex;
+    margin-bottom: 15px;
+
+
+}
+.table2{
+    width: 100px;
+    height: 25vh;
+    width: 40vw;
+    padding-top: 10px;
+    padding-right: 100px;
+}
+.table2 h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.civil-1{
+    display: inline;
+}
+.civil-2{
+    display: inline;
+}
+.civil-3{
+    display: inline;
+}
+#X-1{
+    padding: 7px;
+    background-color: skyblue;
+}
+#X-2{
+    padding: 7px;
+    background-color: skyblue;
+}
+#X-3{
+    padding: 7px;
+    background-color: skyblue;
+}
+#x-1{
+    padding: 7px 407px 7px 12px;
+    background-color: white;
+}
+#x-2{
+    padding: 7px 390px 7px 12px;
+    background-color: white;
+}
+#x-3{
+    padding: 7px 404px 7px 12px;
+    background-color: white;
+
+}
+.table2 li{
+    display: inline-flex;
+    margin-bottom: 15px;
+}
+
+.table3{
+    display: flex;
+    width: 100px;
+    height: 25vh;
+    width: 40vw;
+    padding-top: 10px;
+    padding-right: 100px;
+}
+.table4{
+    position: relative;
+    bottom: 150px;
+    width:80vw;
+    height: 15vh;
+    padding-left: 200px;
+}
+.table4 h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.NIOS-1{
+    display: inline;
+}
+#y-1{
+    padding: 7px 745px 7px 12px;
+    background-color: white;
+
+}
+#Y-1{
+    padding: 7px;
+    background-color: skyblue;
+}
+.table4 li{
+    display: inline-flex;
+    margin-top: 15px;
+}
